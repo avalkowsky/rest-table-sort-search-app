@@ -1,0 +1,23 @@
+.headerContainer{
+	margin: 15px 2% 16px 2%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e0e0e0;
+    font-family: 'Source Sans Pro';
+}
+.headerContainer > h1 {
+	text-align: center;
+	font-size: 60px;
+	font-weight: 300;
+	color: #2288b7;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.headerContainer > h3 {
+	text-align: center;
+	font-size: 17px;
+	font-weight: 400;
+	color: #3b3b3b;
+	margin: 0;
+}
+
