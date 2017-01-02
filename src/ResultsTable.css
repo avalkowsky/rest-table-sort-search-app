@@ -1,0 +1,62 @@
+.tableContainer {
+	width: 940px;
+	margin: auto;
+}
+@media(max-width: 950px) {
+	.tableContainer {
+	width: 99.5%;
+	}	
+}
+.tableHeader {
+	height: 58px;
+	background-color: #e9eaeb;
+	border: 1px solid #d2d5d7; 
+	border-radius: 3px 3px 0 0;
+}
+@media(max-width: 950px) {
+	.tableHeader {
+	width: 99.8%;
+	}	
+}
+.tableHeader span {
+	font-family: helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: #666;
+    line-height: 58px;
+	display: inline-block;
+}
+
+.tableHeader span:first-child, .resultsRow span:first-child {
+	width: 547px;
+	text-indent: 28px;
+}
+@media(max-width: 950px) {
+	.tableHeader span:first-child, .resultsRow span:first-child  {
+		width: 35%;
+		text-indent: 8px;
+	}	
+}
+.tableHeader span:nth-child(2), .resultsRow span:nth-child(2),
+.tableHeader span:nth-child(3), .resultsRow span:nth-child(3),
+.tableHeader span:nth-child(4), .resultsRow span:nth-child(4) {
+	text-align: center;
+}
+.tableHeader span:nth-child(2), .resultsRow span:nth-child(2) {
+	width: 179px;
+}
+@media (max-width: 950px) {
+	.tableHeader span:nth-child(2), .resultsRow span:nth-child(2) {
+		width: 25%;
+	}	
+}
+.tableHeader span:nth-child(3), .resultsRow span:nth-child(3),
+.tableHeader span:nth-child(4), .resultsRow span:nth-child(4) {
+	width: 104px;
+}
+@media (max-width: 950px) {
+	.tableHeader span:nth-child(3), .resultsRow span:nth-child(3),
+	.tableHeader span:nth-child(4), .resultsRow span:nth-child(4) {
+		width: 19.5%;
+	}	
+}
